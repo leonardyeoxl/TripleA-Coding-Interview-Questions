@@ -33,6 +33,23 @@ Input: s = "{[]}"
 Output: true
 ```
 
+### Example 6
+```
+Input: s = "((()))"
+Output: True
+```
+
+### Example 7
+```
+Input: s = "[()]{}"
+Output: True
+```
+### Example 8
+```
+Input: s = "({[)]"
+Output: False
+```
+
 ### Constraints:
 - 1 <= s.length <= 10^4
 - s consists of parentheses only '()[]{}'.
